@@ -1,0 +1,15 @@
+{
+    "products": [
+      { "id": 1, "name": "Pop Figure Marvel", "price": 29.99, "image": "/assets/figmarvel.webp" },
+      { "id": 2, "name": "Comic DC", "price": 14.99, "image": "/assets/comicdc.webp" },
+      { "id": 3, "name": "Colección Star Wars", "price": 49.99, "image": "/assets/coleccionstarwar.jpg" },
+      { "id": 4, "name": "Pop Figure Spider-Man", "price": 29.99, "image": "/assets/popspiderman.webp" },
+
+      { "id": 5, "name": "Comic Iron Man", "price": 14.99, "image": "/assets/ironman.webp" },
+      { "id": 6, "name": "Colección Harry Potter", "price": 39.99, "image": "/assets/harrypotter.webp" },
+      { "id": 7, "name": "Pop Figure Batman", "price": 29.99, "image": "/assets/batman.webp" },
+      { "id": 8, "name": "Comic Superman", "price": 14.99, "image": "/assets/superman.webp" },
+      { "id": 9, "name": "Colección Marvel", "price": 49.99, "image": "/assets/fantasiamarvel.webp" },
+      { "id": 10, "name": "Pop Figure Wonder Woman", "price": 29.99, "image": "/assets/wonderwoman.webp" }
+    ]
+  }

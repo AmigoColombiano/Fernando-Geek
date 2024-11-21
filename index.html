@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="https://trello.com/1/cards/6589c0081d5f2d52ed662fb0/attachments/66042acc4854a74b4a028716/previews/66042acd4854a74b4a02881c/download/image.png" alt="AluraGeek Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="product-section">
+            <h1>Mis Productos</h1>
+            <div class="product-list" id="product-list">
+                <!-- Product cards will be rendered here dynamically -->
+                <p id="no-products-message">No se han agregado productos</p>
+            </div>
+        </section>
+        <section class="form-section">
+            <h1>Agregar Producto</h1>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Nombre del Producto" required>
+                <input type="number" id="product-price" placeholder="Precio" step="0.01" required>
+                <input type="url" id="product-image" placeholder="URL de la Imagen" required>
+                <div class="button-container">
+                    <button type="submit">Enviar</button>
+                    <button type="button" id="clear-form">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <img src="https://trello.com/1/cards/6589c0081d5f2d52ed662fb0/attachments/66042acc4854a74b4a028716/previews/66042acd4854a74b4a02881c/download/image.png" alt="AluraGeek Logo" class="logo">
+            <p>Desarrollado por Fernando Rico C.</p>
+            <p>&copy; 2023 AluraGeek</p>
+        </div>
+    </footer>
+    <script src="js/api.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-section {
+    width: 50%;
+}
+
+.product-list {
+    height: 50vh;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.card img {
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.card-container--info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-container--value img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.form-section {
+    width: 45%;
+}
+
+.form-section h1 {
+    margin-bottom: 1rem;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container .logo {
+    height: 30px;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-section, .form-section {
+        width: 90%;
+    }
+}
